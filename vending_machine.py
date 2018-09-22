@@ -1,6 +1,7 @@
 from byotest import *
-coins = [100, 50, 20, 10, 5, 2, 1]
-def get_change(amount):
+eur_coins = [100, 50, 20, 10, 5, 2, 1]
+usd_coins = [100, 50, 25, 10, 5, 1]
+def get_change(amount, coins=eur_coins):
     
       
     change =[]
